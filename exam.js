@@ -62,7 +62,26 @@ function dinushanArray(arr) {
   
   console.log(dinushan)
 
+// 10
 
+/
+function Car(make, model, year) {
+    this.make = make;        this.model = model;   
+    this.year = year;     
+
+
+    this.displayDetails = function() {
+        console.log(`Make: ${this.make}, Model: ${this.model}, Year: ${this.year}`);
+    };
+}
+
+
+const car1 = new Car('Toyota', 'Camry', 2020);
+const car2 = new Car('Tesla', 'Model 3', 2022);
+
+
+car1.displayDetails();  
+car2.displayDetails();   
 
 
 
